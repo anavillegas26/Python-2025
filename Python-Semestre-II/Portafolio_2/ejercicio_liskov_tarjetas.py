@@ -1,2 +1,0 @@
-class Metodo_Pago:
-    
