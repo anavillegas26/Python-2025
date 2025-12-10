@@ -13,29 +13,28 @@ class Jugador:
          self.posicion = posicion_valida = True
      
          
-        
-         assert = 
+  
          
          JUGADORES_CREADOS += 1
 
 
        def entrenar(self):       
-        self.energia += 30  
+        self.energia = min(100,self.energia +30) 30  
         self.entrenar = max(0, self - 10) 
         print(f"{self.nombre} ha entrenado" )
 
-        def listar_goles(self.goles)
+def listar_goles(self.goles):
         return self.__goles
         # getter y setter
         
-        @property
-        def setnombre(self):
+        @property 
+        def nombre(self):
           return self.__nombre
     
 
-        @property
-        def setedad(self):
-           return self.__edad
+        @nombre.setter
+        def nombre(self,valor):
+            self.__nombre = valor
         
         @property
 
@@ -53,7 +52,7 @@ class Jugador:
        # variables de clase
         @classmethod
         def  creados(csl) :
-           return   creados
+           return  (csl) creados
        
 
 
